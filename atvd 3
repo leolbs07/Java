@@ -1,0 +1,54 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject3;
+
+/**
+ *
+ * @author Aluno
+ */
+public class Mavenproject3 {
+
+    public static void main(String[] args) {
+        Livros livro = new Livros("ciência pouca é bobagem", "AUTOR: DUNKER, CHRISTIAN | AUTOR: IANNINI, GILSON", 288, 63);
+        Livros livro2 = new Livros("Descolonizar o museu", "VERGÈS, FRANÇOISE", 272, 63);
+        
+        System.out.println("Título: " + livro.titulo);
+        System.out.println("Autor: " + livro.autor);
+        System.out.println("Páginas: " + livro.numPag);
+        System.out.println("Preço: " + livro.preco);
+        System.out.println("\n");
+        System.out.println("Título: " + livro2.titulo);
+        System.out.println("Autor: " + livro2.autor);
+        System.out.println("Páginas: " + livro2.numPag);
+        System.out.println("Preço: " + livro2.preco);
+    }
+}
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject3;
+
+/**
+ *
+ * @author Aluno
+ */
+public class Mavenproject3 {
+
+    public static void main(String[] args) {
+        Livros livro = new Livros("ciência pouca é bobagem", "AUTOR: DUNKER, CHRISTIAN | AUTOR: IANNINI, GILSON", 288, 63);
+        Livros livro2 = new Livros("Descolonizar o museu", "VERGÈS, FRANÇOISE", 272, 63);
+        
+        System.out.println("Título: " + livro.titulo);
+        System.out.println("Autor: " + livro.autor);
+        System.out.println("Páginas: " + livro.numPag);
+        System.out.println("Preço: " + livro.preco);
+        System.out.println("\n");
+        System.out.println("Título: " + livro2.titulo);
+        System.out.println("Autor: " + livro2.autor);
+        System.out.println("Páginas: " + livro2.numPag);
+        System.out.println("Preço: " + livro2.preco);
+    }
+}
