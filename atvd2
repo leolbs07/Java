@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject2;
+
+/**
+ *
+ * @author Aluno
+ */
+public class Mavenproject2 {
+
+    public static void main(String[] args) {
+        Funcionarios funcionario = new Funcionarios("Leandro", 16, 9000);
+        
+        //funcionario.setNome("Leandro");
+        //funcionario.setIdade(16);
+        //funcionario.setSalario(7000);
+        
+        System.out.println("Nome: " + funcionario.getNome());
+        System.out.println("Idade: " + funcionario.getIdade());
+        System.out.println("Salário: " + funcionario.getSalario());
+    }
+}
